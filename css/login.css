@@ -1,0 +1,152 @@
+
+/*---------------------reset----------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0;}
+ol, ul, li { list-style:none } 
+body { background:#FFF; width: 100%;height: 100%;}
+:focus { outline:0 }
+table { border-collapse:collapse; border-spacing:0 }
+table,table td,table th{border:1px solid #edeada;border-collapse:collapse;}
+address, cite, code, dfn, em, var, i { font-style:normal }
+input[type=button], input[type=submit], button { cursor:pointer; outline:none;}
+.input, select { vertical-align:middle }
+* html .clearfix { zoom:1 }
+*+html .clearfix { zoom:1 }
+textarea{resize:none;}
+
+a{ text-decoration:none; font-size:15px;}
+
+
+.clearfix:after {clear: both;content: ".";display: block;height: 0;overflow: hidden;visibility: hidden;}
+.pos-r{ position:relative;}
+.hide{ display:none;}
+/*---------------------header----------------------*/
+
+.navstyle{
+    margin-top:20px;
+ }
+
+
+.lg{
+  color: red; font-size: 50px ;
+  font-weight: 500 !important;
+  margin-top: 20px;}
+
+/*--------------------anner----------------------*/
+.banner{ width:100%;  position:relative;  height:100%; margin-top: 10px;  }
+.banner a{ padding-left: 35px;}
+.banner a:link{color:#fed;}
+.banner a:visited{color:#fff;}
+.banner a:hover{color:#03f;}
+.banner .bd{ position:relative; z-index:0;  }
+.banner .bd ul{ width:100% !important; }
+.banner .bd li{ width:100% !important;  height:478px; }
+.banner .bd li .siteWidth{ width:1000px; position:relative;  margin:0 auto;  height:299px;  }
+.banner .bd li a{ height:299px; display:block;  }
+.banner .bd .txt{ position:absolute; width:415px; top:100px; left:22px;   font:normal 18px/30px "Microsoft YaHei";    }
+.banner-shadow{ height:50px; line-height:50px; background:url(../images/login/banner-shdow.png) repeat-x;}
+.footer{text-align:center; font-size:12px; color:#999999;}
+.login-aside{position:absolute; width:100%; height:100%; z-index:9999999; border-radius:5px; left:64%; top:40px;color: #fff;}
+
+
+
+
+input{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.error-box{
+color: #FFFFFF;
+font-size:15px;
+margin-bottom:10px;
+}
+
+
+label.form-label {
+    display: block;
+    float: none;
+    height: auto;
+    line-height: 12px;
+    text-align: left;
+    width: auto;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #FF00FF;
+	-o-text-shadow:1px 1px 1px #4e6877;
+	-o-moz-shadow:1px 1px 1px #4e6877;
+	-o-mis-shadow:1px 1px 1px #4e6877;
+	-o-webkit-shadow:1px 1px 1px #4e6877;
+	margin-top:16px;
+	margin-bottom:16px;
+}
+
+#o-box-up,#o-box-down {
+    /*width:340px;
+    height:380px;*/
+    min-width: 330px;
+    max-width: 360px;
+    min-height: 410px;
+    max-height: 440px;
+   
+    position:absolute;
+	border-radius:5px;
+
+
+}
+#o-box-up {
+    background-color:#000;
+     filter: alpha(opacity=70);
+    opacity:0.7;
+}
+ 
+#o-box-down{ padding:30px 0 0 50px;}
+
+#checkbox{margin: 10px 0 0 10px;}
+
+#qrcode{
+  position:absolute; 
+  width:150px;
+  height:150px;
+  margin-top: 24%;
+  margin-left: 1px;
+  z-index: 1;
+  opacity:0.8;
+}
+
+.i-text{ 
+  width:240px;
+  height:37px;
+  line-height:37px;
+  border:1px solid #858585;
+  background:#eef3f8;
+  color:#9cb5cd;
+  font-size:14px; 
+  text-indent:12px; 
+  box-shadow:1px 1px 1px #dfe4e8 inset;
+  -moz-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -webkit-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -o-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -mis-box-shadow:1px 1px 1px #dfe4e8 inset;
+ }
+ 
+ .yzm{ width:112px; color:#FF00FF;}
+ .yzm-img{ position:absolute; left:120px; top:30px; cursor:pointer;}
+
+#btn-login{ color:#fff; font-size: 16px;margin-top: 15px;}
+
+#href-heiht{margin-top: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

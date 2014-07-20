@@ -1,0 +1,118 @@
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    font-size: 12px;
+    line-height: 1.3;
+    font-family: :"Times New Roman",Georgia,Serif ,Arial,Verdana,Sans-serif;
+    color: #ccc;
+    background-color:#ffffff;
+}
+
+a { color: #e7b038; text-decoration: underline; cursor:pointer; }
+a:hover { text-decoration: none; color:#ff0099;}
+a img { border: 0; }
+img[alt] {border: 1px solid #ff0000;}
+
+input, textarea, select { font-size: 12px; font-family:"Times New Roman",Georgia,Serif ,Arial,Verdana,Sans-serif; }
+textarea { overflow: auto; }
+input:focus {background-color:#c8c8c8; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+.text-right { text-align:right; }
+
+h2 { font-size:10px; color:#f2a223; font-weight:bold; }
+h3 { font-size:14px; color:#fff; font-weight:bold; }
+h4 { font-size:14px; color:#f3b12b; font-weight:bold; }
+
+#shell { width:980px; margin:0 auto; }
+
+#header { position:relative; }
+
+
+h1#logo { position:absolute; background: #ffffff ; border:2px solid #ffffff;margin: 0.5cm;border-radius: 25px; width: 200px;}
+h1#logo a { float:left; font-weight: bold;text-align: center;  font-size: 60px;color:#ff0000; text-decoration: none;}
+
+.social { float:right;  padding-top:11px; display:inline; }
+.social a.login { float:left;padding-right:10px; color: #ff0000 }
+.social a.regist { padding-right: 10px;}
+
+
+
+#navigation { float:right; clear:right; padding-top:28px; padding-bottom:47px; }
+#navigation ul { list-style:none; }
+#navigation ul li { float:left; display:inline; padding-left:29px;  }
+#navigation ul li a { font-size:14px; font-weight:bold; color:#; text-decoration:none; }
+#navigation ul li a.active,
+#navigation ul li a:hover { color:#d91d2a; }
+
+
+
+#sub-navigation { background-color:#f0f0f0 ;display:block; clear:right; border-top:2px solid #ff0000;overflow:hidden; border-bottom:2px solid #ff0000;height: 40px; }
+#sub-navigation .newword {float: left;  font-weight: bold;font-size:12px; color:#33cc00; line-height:40px; padding-right:5px; }
+#sub-navigation .image {margin: 3px;float: left; width:25px; height:35px; background:url('images/laba2.jpg') no-repeat ; }
+#sub-navigation .activebox { padding:3px 0 3px 3px; margin: 6px;font-weight:bold;color: #ff0099;float: left;border: 1px solid #c0c0c0; width: 400px;height: 19px; }
+
+
+#search { width:346px; margin:0 0 0 auto; padding: 5px;border-collapse: collapse;}
+#search label { float: left; display:block;border: 1px solid #413e3e;font-size:12px; font-weight:bold; background: #ff3300;color: #ffffff;width:33px ; height:25px;text-align:center;line-height: 23px; margin-top: 1px;}
+#search .search-field { margin-top: 1.5px;width:255px;height: 21px;border: 1px solid #413e3e;  color:#080808; padding:2px 0 2px 2px; font-size: 13px;}
+#search .search-button { float: right;font-size:14px; font-weight:bold; border:1px solid #413e3e;width: 52px;height: 27.5px; background:#ff3300; color:#ffffff; margin-top: 1px ;cursor:pointer; }
+
+#main { border-bottom:1px dashed #413e3e; }
+#content {  }
+
+.inner_copyright{padding-top: 0px;text-indent:59px;height:0px;line-height:0;font-size:10px;overflow:hidden;color: #ff0000;}
+
+.box { width:980px; border-bottom:1px dashed #413e3e; padding-bottom:21px; }
+.box .head { width:980px; padding-top:14px; padding-bottom:11px; }
+.box .head h2 { float:left; display:inline; font-size:13px;color: #ff0099; }
+
+.box .movie { width:152px; float:left; padding-right:12px; }
+.movie-image { float:left; width:152px; height:214px; position:relative; }
+.movie-image img { width:152px; height:214px; }
+.movie-image a { float: left; display: inline; width:152px; height:214px; position: relative; z-index: 2; }
+.rice { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/food-rice.jpg'); display:block; z-index: 5; cursor:pointer; display:none; }
+.noodle { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/food-noodle.jpg'); display:block; z-index: 5; cursor:pointer; display:none; }
+.fruit { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/food-fruit.jpg'); display:block; z-index: 5; cursor:pointer; display:none; }
+.fastfood { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/food-fast-food.jpg'); display:block; z-index: 5; cursor:pointer; display:none; }
+.movie span.name { font-weight:bold; color:#fff; font-size:14px; text-align:center; padding-top:160px; display:block; }
+
+
+.box .last { padding:0; }
+
+.rating { float:left; width:152px; padding-top:8px; }
+.rating p { float:left; font-size:10px; color:#fff; font-weight:bold; }
+.rating .stars { float:left; width:60px; height:11px; background:url('images/stars.gif') no-repeat 0 0; margin-left:2px;}
+/*修改start-in中的width可改星号点数*/
+.rating .stars-in { width:48px; height:11px;  background:url('images/stars.gif') no-repeat 0 bottom; position:absolute; font-size: 0; line-height: 0;text-indent: -4000px; }
+.comments { background:url('images/comments.gif') no-repeat 0 center; color: #00ffff;padding-left:12px; float:right; }
+
+#news { width:460px; float:left; }
+#news .head { width:460px; padding-top:11px; padding-bottom:14px;  }
+#news h3, #coming h3 { float:left;  }
+
+#coming { width:490px; float:left; padding-left:30px; }
+#coming .head { width:490px; padding-top:11px; padding-bottom:14px;  }
+#coming .head strong { color:#ff361a; }
+#coming .content { min-height:130px; height: auto !important; height:130px; padding-bottom:20px; }
+#coming .content h4 { padding-bottom:3px; }
+
+.content { padding-bottom:28px; }
+.content .date { font-size:10px; color:#fff; }
+.content img { float:left; width:68px; padding-right:8px; }
+.content p { font-size:13px; color:#fff; line-height:16px; }
+.content a { font-size:11px;  }
+
+#footer { padding:15px 0 0 0; }
+#footer p { text-align:center; font-size:10px; padding-bottom:11px; }
+#footer a { color:#9c9c9c; font-size:10px; }
+#footer a:hover { color:#e44400; text-decoration:none; }
+
+#footer a:hover.designby { color:#9c9c9c; text-decoration:none; }
+
+
+
